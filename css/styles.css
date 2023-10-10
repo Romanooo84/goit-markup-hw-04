@@ -398,3 +398,11 @@ h1, h2, h3, h4, h5, h6, p, a {
 .portfolio-link-header{
     margin-bottom: 8px;
 }
+
+.section-one-bacground{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+    max-width: 1440px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
