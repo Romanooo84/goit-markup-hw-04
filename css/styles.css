@@ -406,9 +406,6 @@ h1, h2, h3, h4, h5, h6, p, a {
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    
-}
-.max-with{
     max-width: 1440px;
 }
 
@@ -416,4 +413,14 @@ h1, h2, h3, h4, h5, h6, p, a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.ico-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px; 
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
