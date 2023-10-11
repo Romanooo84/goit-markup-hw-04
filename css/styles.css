@@ -400,9 +400,20 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .section-one-bacground{
+    display: flex;
+
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
-    max-width: 1440px;
+    background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    background-size: cover;
+    
+}
+.max-with{
+    max-width: 1440px;
+}
+
+.display-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
