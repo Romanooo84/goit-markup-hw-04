@@ -469,3 +469,9 @@ h1, h2, h3, h4, h5, h6, p, a {
 .section-four-link:hover:focus{
     background-color: #404bbf;
 }
+
+.section-four-svg{
+    width: 16px;
+    height: 16px;
+    fill: #f4f4fd;
+}
