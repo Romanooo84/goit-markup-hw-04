@@ -440,3 +440,9 @@ h1, h2, h3, h4, h5, h6, p, a {
     margin-bottom: 8px;
 
 }
+
+.third-section-icon_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
