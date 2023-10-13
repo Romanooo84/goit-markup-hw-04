@@ -474,6 +474,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .section-four-link:hover{
     background-color: #404bbf;
 }
+
 .section-four-link:focus{
     background-color: #404bbf;
 }
