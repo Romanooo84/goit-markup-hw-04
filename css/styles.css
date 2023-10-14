@@ -488,9 +488,9 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .section-five-container{
-    margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 120px;
+    margin: 0 auto;
 }
 
 .customers-container{
@@ -512,9 +512,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .scection-five-point-container{
-    width: calc((100% - 120px)/6);
+    width:calc((100% - 120px)/6);
     height: 88px;
-
 }
 
 .section-five-link-container{
