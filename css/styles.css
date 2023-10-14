@@ -1,6 +1,8 @@
 :root{
     --link-color:#404bbf;
     --button-color:#e7e9fc;
+    --section-five-color: #2e2f42;
+    --five-link-color: #8e8f99;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -483,4 +485,57 @@ h1, h2, h3, h4, h5, h6, p, a {
     width: 16px;
     height: 16px;
     fill: #f4f4fd;
+}
+
+.section-five-container{
+    margin: 0 auto;
+}
+
+.customers-container{
+    color: var(--section-five-color);
+    font-size: 36px;
+    line-height: 1.11;
+    margin-bottom: 72px;
+}
+
+.section-five-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scection-five-list-container{
+    display: flex;
+    gap: 24px;
+}
+
+.scection-five-point-container{
+    width: calc((100% - 120px)/6);
+    height: 88px;
+
+}
+
+.section-five-link-container{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--five-link-color);
+}
+
+.section-five-link-container:hover{
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
+.section-five-link-container:focus{
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
+.section-five-svg-container{
+    fill: currentColor;
 }
