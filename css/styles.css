@@ -509,6 +509,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .scection-five-list-container{
     display: flex;
     gap: 24px;
+    width: 100%;
 }
 
 .scection-five-point-container{
