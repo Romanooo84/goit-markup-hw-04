@@ -473,10 +473,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     justify-content: center;
 }
 
-.section-four-link:hover{
-    background-color: #404bbf;
-}
-
+.section-four-link:hover,
 .section-four-link:focus{
     background-color: #404bbf;
 }
@@ -529,11 +526,6 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .section-five-link-container:hover,
-.section-five-link-container:active{
-    border-color: #404bbf;
-    color: #404bbf;
-}
-
 .section-five-link-container:focus{
     border-color: #404bbf;
     color: #404bbf;
