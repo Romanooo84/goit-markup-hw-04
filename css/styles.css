@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .footer-div{
     flex-direction: column;
     align-items: flex-start;
-    gap: 120px;
+    margin-right: 120px;
 }
 
 .footer-link{
@@ -542,6 +542,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 .main-div-footer{
     display: flex;
     align-items: baseline;
+}
+
+.second-div-container{
+    gap: 120px;
 }
 
 .footer-socialmedia{
