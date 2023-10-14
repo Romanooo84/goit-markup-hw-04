@@ -534,3 +534,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 .section-five-svg-container{
     fill: currentColor;
 }
+
+.dispaly-div-footer{
+    display: flex;
+    align-items: baseline;
+}
