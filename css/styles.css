@@ -477,7 +477,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     background-color: #404bbf;
 }
 
-.section-four-link:focus{
+.section-four-link:active{
     background-color: #404bbf;
 }
 
@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     color: #404bbf;
 }
 
-.section-five-link-container:focus{
+.section-five-link-container:active{
     border-color: #404bbf;
     color: #404bbf;
 }
