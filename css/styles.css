@@ -527,7 +527,8 @@ h1, h2, h3, h4, h5, h6, p, a {
     color: var(--five-link-color);
 }
 
-.section-five-link-container:hover{
+.section-five-link-container:hover,
+.section-five-link-container:active{
     border-color: #404bbf;
     color: #404bbf;
 }
